@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CRUDSamuelGarcesEF.Models.LibrosAutor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Libros_Autores</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm"><i class="fi fi-rr-add"></i></a>
+</p>
+<table class="table table-striped" id="example">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IdAutorNavigation.IdAutor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().IsbnNavigation.Isbn)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem =>item.IdAutorNavigation.IdAutor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsbnNavigation.Isbn)
+            </td>
+                <td class="no-print">
+                    <a asp-action="Edit" class="btn btn-warning btn-sm" asp-route-id="@item.IdLibrosAutor">Edit</a> |
+                <a asp-action="Details" class="btn btn-info btn-sm" asp-route-id="@item.IdLibrosAutor">Details</a> |
+                <a asp-action="Delete" class="btn btn-danger btn-sm" asp-route-id="@item.IdLibrosAutor">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

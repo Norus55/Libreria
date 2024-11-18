@@ -1,0 +1,47 @@
+﻿@model CRUDSamuelGarcesEF.Models.Autor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Gestión de autores</h3>
+
+<h4>Añadir Autor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form id="createForm" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nacionalidad" class="control-label"></label>
+                <input asp-for="Nacionalidad" class="form-control" />
+                <span asp-validation-for="Nacionalidad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fi fi-rr-book-plus"></i> <!-- Asegúrate de que esta clase sea correcta para tu biblioteca de íconos -->
+                </button>
+                <a class="btn btn-secondary btn-sm" asp-action="Index"><i class="fi fi-rr-undo"></i></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script src="~/js/crud-operations.js"> </script>
+}

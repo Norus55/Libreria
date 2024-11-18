@@ -1,0 +1,466 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Estilos generales */
+/* Tipografía general */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente base */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    color: #333; /* Color de texto general */
+    background-color:whitesmoke; /* Color de fondo suave */
+    align-content: center;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna y limpia para encabezados */
+    font-weight: 700; /* Peso de fuente para encabezados */
+    color: #1b6ec2; /* Color azul para encabezados */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo específico para h1 */
+h1 {
+    font-size: 2rem; /* Tamaño de fuente para h1 */
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo específico para h2 */
+h2 {
+    font-size: 2rem;
+    text-align:center;/* Tamaño de fuente para h2 */
+}
+
+/* Estilo específico para h3 */
+h3 {
+    font-size: 1.75rem; /* Tamaño de fuente para h3 */
+    margin-top: 15px; /* Espaciado superior */
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #1b6ec2;
+    text-align: center;
+}
+
+/* Estilos para párrafos */
+p {
+    font-size: 1.1rem; /* Tamaño de fuente para párrafos */
+    margin-bottom: 15px; /* Espaciado inferior */
+    color: #555; /* Color de texto para párrafos */
+}
+
+/* Estilos para listas */
+ul, ol {
+    margin-left: 20px; /* Margen izquierdo para listas */
+    margin-bottom: 15px; /* Margen inferior para listas */
+    text-align: center;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #1b6ec2; /* Color de enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+    a:hover {
+        color: #0056b3; /* Color de enlace al pasar el mouse */
+    }
+
+/* Estilos para citas */
+blockquote {
+    font-style: italic; /* Estilo cursivo para citas */
+    border-left: 4px solid #1b6ec2; /* Borde izquierdo para citas */
+    padding-left: 15px; /* Espaciado interno */
+    margin: 20px 0; /* Margen superior e inferior */
+    color: #666; /* Color de texto para citas */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #ffffff; /* Fondo blanco para el encabezado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño del texto del título */
+    font-weight: bold; /* Negrita para el título */
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* Espaciado en los enlaces de navegación */
+    color: #343a40; /* Color del texto */
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: #e2e6ea; /* Color de fondo al pasar el mouse */
+        border-radius: 0.25rem; /* Bordes redondeados */
+    }
+
+/* Estilos del contenido principal */
+.container {
+    margin-top: 15px;
+    padding: 20px;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto; /* Margen superior para el contenido */
+}
+
+/* Estilos de las tarjetas */
+/* Estilos de las tarjetas */
+.card {
+    border: 1px solid #dee2e6; /* Borde de las tarjetas */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para transformaciones y sombras */
+    overflow: hidden; /* Ocultar contenido que se desborde */
+    position: relative; /* Posición relativa para efectos de pseudo-elemento */
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Elevar la tarjeta al pasar el mouse */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el mouse */
+    }
+
+    /* Efecto de superposición */
+    .card::before {
+        content: ''; /* Crear un pseudo-elemento */
+        position: absolute; /* Posición absoluta */
+        top: 0; /* Alinear al borde superior */
+        left: 0; /* Alinear al borde izquierdo */
+        right: 0; /* Alinear al borde derecho */
+        bottom: 0; /* Alinear al borde inferior */
+        background-color: rgba(0, 0, 0, 0.1); /* Color de superposición */
+        opacity: 0; /* Ocultar por defecto */
+        transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+        z-index: 1; /* Asegurar que esté por encima del contenido de la tarjeta */
+    }
+
+    .card:hover::before {
+        opacity: 1; /* Mostrar superposición al pasar el mouse */
+    }
+
+/* Estilo de contenido de la tarjeta */
+.card-body {
+    position: relative; /* Posición relativa para permitir superposición */
+    z-index: 2; /* Asegurar que el contenido esté por encima de la superposición */
+}
+
+/* Estilos de botones en tarjetas */
+.card .btn {
+    margin-top: 10px; /* Espaciado superior para botones */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+    .card .btn:hover {
+        background-color: #0056b3; /* Color de fondo más oscuro para el botón al pasar el mouse */
+        transform: scale(1.05); /* Aumentar el tamaño del botón al pasar el mouse */
+    }
+
+.card-img-top {
+    border-top-left-radius: 0.5rem; /* Bordes redondeados en la parte superior */
+    border-top-right-radius: 0.5rem; /* Bordes redondeados en la parte superior */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #ffffff; /* Fondo blanco para el pie de página */
+    padding: 5px 0; /* Espaciado vertical */
+    text-align: center; /* Centrar el texto */
+}
+
+.footer a {
+    color: #007bff; /* Color de los enlaces en el pie de página */
+}
+
+    .footer a:hover {
+        text-decoration: underline; /* Subrayar al pasar el mouse */
+    }
+
+/* Estilos de botones */
+.btn {
+    margin: 5px;
+    margin-top: 10px; /* Margen entre botones */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+    padding: 8px 16px;
+}
+
+/* Colores de fondo para diferentes tipos de botones */
+.btn-primary {
+    background-color: #007bff; /* Color azul */
+    color: white; /* Color del texto */
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+        transform: translateY(-2px); /* Efecto de elevación */
+    }
+
+.btn-secondary {
+    background-color: #6c757d; /* Color gris */
+    color: white; /* Color del texto */
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268; /* Color gris más oscuro al pasar el mouse */
+        transform: translateY(-2px); /* Efecto de elevación */
+    }
+
+/* Estilo de alerta */
+.alert {
+    margin-top: 20px; /* Margen superior para la alerta */
+}
+
+/* Estilos del formulario */
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Estilo de encabezados */
+h1, h3, h4 {
+    color: #343a40; /* Color del texto */
+}
+
+/* Estilo de la lista de detalles */
+dl.row {
+    margin: 20px 0;
+    width: 100%;
+}
+
+dt.col-sm-2 {
+    padding: 8px;
+    font-weight: bold;
+    text-align: right;
+}
+
+dd.col-sm-10 {
+    padding: 8px;
+    margin-bottom: 0;
+}
+
+/* Ajustes para el layout de columnas */
+.col-md-6 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Estilo de la fila */
+.row {
+    margin-top: 20px; /* Margen superior para la fila */
+}
+
+/* Estilos de la tabla */
+.table {
+    margin-top: 20px; /* Margen superior para la tabla */
+    border-collapse: collapse; /* Colapsar bordes */
+}
+
+    .table th, .table td {
+        padding: 12px; /* Espaciado interno */
+        text-align: left; /* Alinear texto a la izquierda */
+        border-bottom: 1px solid #dee2e6; /* Línea inferior */
+    }
+
+    .table th {
+        background-color: #f1f1f1; /* Color de fondo para los encabezados de tabla */
+    }
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Color de fondo para filas impares */
+}
+
+.table-striped tbody tr:hover {
+    background-color: #e9ecef; /* Color de fondo al pasar el mouse sobre una fila */
+}
+
+/* Estilos existentes del layout */
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0077cc; /* Color de los enlaces */
+}
+
+.btn-primary {
+    color: #fff; /* Color del texto para botones primarios */
+    background-color: #1b6ec2; /* Color azul */
+    border-color: #1861ac; /* Color del borde */
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff; /* Color del texto activo */
+    background-color: #1b6ec2; /* Color de fondo activo */
+    border-color: #1861ac; /* Color del borde activo */
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5; /* Borde superior */
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5; /* Borde inferior */
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); /* Sombra */
+}
+
+button.accept-policy {
+    font-size: 1rem; /* Tamaño de fuente para botón de aceptación */
+    line-height: inherit; /* Línea de altura heredada */
+}
+
+.footer {
+    position: absolute; /* Pie de página absoluto */
+    bottom: 0;
+    width: 100%; /* Ancho completo */
+    white-space: nowrap; /* Sin envoltura */
+    line-height: 60px; /* Altura de línea */
+}
+
+/* Nuevos estilos para el menú desplegable manteniendo la consistencia */
+.navbar-nav .dropdown {
+    position: relative; /* Posición relativa para el menú desplegable */
+}
+
+.navbar-nav .dropdown-menu {
+    display: none; /* Ocultar menú desplegable por defecto */
+    position: absolute; /* Posición absoluta */
+    top: 100%; /* Ubicar debajo del botón */
+    left: 0;
+    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+    min-width: 200px; /* Ancho mínimo */
+    padding: .5rem 0; /* Espaciado */
+    background-color: #fff; /* Color de fondo */
+    border: 1px solid #e5e5e5; /* Borde */
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); /* Sombra */
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block; /* Mostrar menú al pasar el mouse */
+}
+
+.dropdown-item {
+    display: block; /* Mostrar como bloque */
+    width: 100%; /* Ancho completo */
+    padding: .5rem 1rem; /* Espaciado */
+    clear: both; /* Limpiar flotantes */
+    color: #0077cc; /* Color del texto */
+    text-align: inherit; /* Alinear texto */
+    text-decoration: none; /* Sin subrayado */
+    white-space: nowrap; /* Sin envoltura */
+    background-color: transparent; /* Fondo transparente */
+    border: 0; /* Sin borde */
+}
+
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+        color: #fff; /* Color del texto al pasar el mouse */
+        text-decoration: none; /* Sin subrayado */
+        background-color: #1b6ec2; /* Color de fondo al pasar el mouse */
+    }
+
+.dropdown-divider {
+    height: 0; /* Altura cero */
+    margin: .5rem 0; /* Margen */
+    overflow: hidden; /* Sin desbordamiento */
+    border-top: 1px solid #e5e5e5; /* Borde superior */
+}
+
+/* Estilos responsive */
+@media (max-width: 576px) {
+    .navbar-nav .dropdown-menu {
+        position: static; /* Posición estática para el menú desplegable en pantallas pequeñas */
+        float: none; /* Sin flotación */
+        width: auto; /* Ancho automático */
+        margin-top: 0; /* Sin margen superior */
+        background-color: transparent; /* Fondo transparente */
+        border: 0; /* Sin borde */
+        box-shadow: none; /* Sin sombra */
+    }
+
+    .dropdown-item {
+        padding: .5rem 1rem .5rem 2rem; /* Espaciado ajustado para elementos de menú */
+    }
+}
+
+/* Ajustes para dispositivos más grandes */
+@media (min-width: 768px) {
+    .container {
+        max-width: 960px; /* Ancho máximo para pantallas grandes */
+    }
+
+    .card {
+        margin-bottom: 30px; /* Espaciado entre tarjetas */
+    }
+
+    h1 {
+        font-size: 2.5rem; /* Tamaño de fuente más grande para encabezados */
+    }
+
+    p {
+        font-size: 1.1rem; /* Tamaño de fuente ajustado para párrafos */
+    }
+}
+
+/* Estilos para pantallas muy grandes */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px; /* Ancho máximo para pantallas muy grandes */
+    }
+
+    h1 {
+        font-size: 3rem; /* Tamaño de fuente aún más grande para encabezados */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        max-width: 100%;
+    }
+
+    dt.col-sm-2,
+    dd.col-sm-10 {
+        text-align: left;
+        width: 100%;
+    }
+
+    dl.row {
+        margin: 10px 0;
+    }
+}

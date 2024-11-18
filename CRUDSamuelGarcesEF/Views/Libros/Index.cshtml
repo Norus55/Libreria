@@ -1,0 +1,187 @@
+﻿@* @model IEnumerable<CRUDSamuelGarcesEF.Models.Libro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Libros</h1>
+
+<p>
+    <a class="btn btn-primary btn-sm" asp-action="Create"><i class="fi fi-rr-add"></i></a>
+</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        No hay libros disponibles.
+    </div>
+}
+else
+{
+    <table class="table table-striped" id="example">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Publicacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().FechaRegistro)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().CodigoCategoriaNavigation.CodigoCategoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().NitEditorialNavigation.Nit)
+                </th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Publicacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaRegistro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoCategoriaNavigation.CodigoCategoria)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NitEditorialNavigation.Nit)
+                    </td>
+                    <td class="no-print">
+                        <button class="btn btn-warning btn-sm btn-edit" data-isbn="@item.Isbn">
+                            <i class="fi fi-rr-pencil"></i>
+                        </button>
+                        <button class="btn btn-info btn-sm btn-details" data-isbn="@item.Isbn">
+                            <i class="fi fi-rr-info"></i>
+                        </button>
+                        <button class="btn btn-danger btn-sm" onclick="confirmDelete('@item.Isbn', '@item.Titulo')">
+                            <i class="fi fi-rr-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+        function confirmDelete(isbn, title) {
+            swal({
+                title: "¿Estás seguro?",
+                text: "¿Quieres eliminar el libro '" + title + "'?",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            }).then((willDelete) => {
+                if (willDelete) {
+                    $.ajax({
+                        url: '@Url.Action("DeleteAjaxy", "Libros")', // Cambia "Libros" por el nombre de tu controlador
+                        type: 'POST',
+                        data: { id: isbn },
+                        success: function (result) {
+                            if (result.success) {
+                                swal("Éxito!", result.message, "success").then(() => {
+                                    location.reload(); // Recargar la página para ver los cambios
+                                });
+                            } else {
+                                swal("Error!", result.message, "error");
+                            }
+                        },
+                        error: function () {
+                            swal("Error!", "Ocurrió un error al intentar eliminar el libro.", "error");
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+} *@
+
+
+@model IEnumerable<CRUDSamuelGarcesEF.Models.Libro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Libros</h1>
+
+<p>
+    <a class="btn btn-primary btn-sm" asp-action="Create">
+        <i class="fi fi-rr-add"></i> Nuevo Libro
+    </a>
+</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        No hay libros disponibles.
+    </div>
+}
+else
+{
+    <table class="table table-striped" id="example">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().Titulo)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Descripcion)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Publicacion)</th>
+                <th>@Html.DisplayNameFor(model => model.First().FechaRegistro)</th>
+                <th>@Html.DisplayNameFor(model => model.First().CodigoCategoriaNavigation.CodigoCategoria)</th>
+                <th>@Html.DisplayNameFor(model => model.First().NitEditorialNavigation.Nit)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Descripcion)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Publicacion)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaRegistro)</td>
+                    <td>@Html.DisplayFor(modelItem => item.CodigoCategoriaNavigation.CodigoCategoria)</td>
+                    <td>@Html.DisplayFor(modelItem => item.NitEditorialNavigation.Nit)</td>
+                    <td class="no-print">
+                        <button type="button" class="btn btn-warning btn-sm btn-edit"
+                                onclick="window.location.href='@Url.Action("Edit", new { id = item.Isbn })'">
+                            <i class="fi fi-rr-pencil"></i>
+                        </button>
+                        <button type="button" class="btn btn-info btn-sm btn-details" data-isbn="@item.Isbn">
+                            <i class="fi fi-rr-info"></i>
+                        </button>
+                        <button type="button" class="btn btn-danger btn-sm" onclick="confirmDelete('@item.Isbn', '@item.Titulo')">
+                            <i class="fi fi-rr-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/libros.js"></script>
+}

@@ -1,0 +1,34 @@
+﻿@model CRUDSamuelGarcesEF.Models.LibrosAutor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>Agregar relación Libros_Autor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdAutor" class="control-label"></label>
+                <select asp-for="IdAutor" class ="form-control" asp-items="ViewBag.IdAutor"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Isbn" class="control-label"></label>
+                <select asp-for="Isbn" class ="form-control" asp-items="ViewBag.Isbn"></select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fi fi-rr-book-plus"></i> <!-- Asegúrate de que esta clase sea correcta para tu biblioteca de íconos -->
+                </button>
+                <a class="btn btn-secondary btn-sm" asp-action="Index"><i class="fi fi-rr-undo"></i></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

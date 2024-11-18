@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CRUDSamuelGarcesEF.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Categorías</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm"><i class="fi fi-rr-add"></i></a>
+</p>
+<table class="table table-striped" id="example">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+                <td class="no-print">
+                    <button class="btn btn-warning btn-sm" onclick="window.location.href='@Url.Action("Edit", new { id = item.CodigoCategoria })'">
+                        <i class="fi fi-rr-pencil"></i>
+                    </button>
+                    <button class="btn btn-info btn-sm btn-details" data-id="@item.CodigoCategoria" data-entity="Categorias">
+                        <i class="fi fi-rr-info"></i>
+                    </button>
+                    <button class="btn btn-danger btn-sm" onclick="confirmDelete('@item.CodigoCategoria', '@item.Nombre', 'Categorias')">
+                        <i class="fi fi-rr-trash"></i>
+                    </button>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/crud-operations.js">
+        </script>}

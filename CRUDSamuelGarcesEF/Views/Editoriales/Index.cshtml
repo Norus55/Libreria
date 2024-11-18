@@ -1,0 +1,70 @@
+﻿@model IEnumerable<CRUDSamuelGarcesEF.Models.Editoriale>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Editoriales</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm"><i class="fi fi-rr-add"></i></a>
+</p>
+<table class="table table-striped" id="example">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sitioweb)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sitioweb)
+                        <td class="no-print">
+            <button class="btn btn-warning btn-sm" onclick="window.location.href='@Url.Action("Edit", new { id = item.Nit })'">
+                <i class="fi fi-rr-pencil"></i>
+            </button>
+            <button class="btn btn-info btn-sm btn-details" data-id="@item.Nit" data-entity="Editoriales">
+                <i class="fi fi-rr-info"></i>
+            </button>
+            <button class="btn btn-danger btn-sm" onclick="confirmDelete('@item.Nit', '@item.Nombres', 'Editoriales')">
+                <i class="fi fi-rr-trash"></i>
+            </button>
+        </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="~/js/crud-operations.js">
+        </script>
+}

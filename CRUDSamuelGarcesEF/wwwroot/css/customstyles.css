@@ -1,0 +1,79 @@
+﻿/* Estilos para los botones de DataTables */
+.dt-button {
+    color: black; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    padding: 1rem 1.5rem; /* Espaciado interno */
+    margin: 0 5px; /* Margen entre botones */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+    .dt-button:hover {
+        color: white; /* Color del texto al pasar el mouse */
+    }
+
+/* Colores específicos para cada botón */
+.boton-color-copiar {
+    background-color: wheat; /* Color de fondo para copiar */
+}
+
+    .boton-color-copiar:hover {
+        background-color: #d2b48c; /* Color al pasar el mouse */
+    }
+
+.boton-color-csv {
+    background-color: lightgreen; /* Color de fondo para CSV */
+}
+
+    .boton-color-csv:hover {
+        background-color: #3cb371; /* Color al pasar el mouse */
+    }
+
+.boton-color-excel {
+    background-color: lightblue; /* Color de fondo para Excel */
+}
+
+    .boton-color-excel:hover {
+        background-color: #4682b4; /* Color al pasar el mouse */
+    }
+
+.boton-color-pdf {
+    background-color: lightcoral; /* Color de fondo para PDF */
+}
+
+    .boton-color-pdf:hover {
+        background-color: #c71585; /* Color al pasar el mouse */
+    }
+
+.boton-color-print {
+    background-color: lightgoldenrodyellow; /* Color de fondo para imprimir */
+}
+
+    .boton-color-print:hover {
+        background-color: #ffd700; /* Color al pasar el mouse */
+    }
+
+.boton-color-colvis {
+    background-color: lightgray; /* Color de fondo para colvis */
+}
+
+    .boton-color-colvis:hover {
+        background-color: #a9a9a9; /* Color al pasar el mouse */
+    }
+
+/* Estilo para los botones en el contenedor */
+.botones {
+    display: inline-flex; /* Alinear icono y texto */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.dt-button i {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+    font-size: 1rem; /* Aumentar el tamaño del icono */
+}
+
+@media print {
+    .dt-buttons {
+        display: none; /* Oculta los botones al imprimir */
+    }
+}

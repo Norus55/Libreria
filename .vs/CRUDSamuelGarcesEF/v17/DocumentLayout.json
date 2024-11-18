@@ -1,0 +1,835 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\librosautores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\librosautores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\libros\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\editoriales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\editoriales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\autores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\js\\datatables-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\js\\datatables-init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\js\\crud-operations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\js\\crud-operations.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\editorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\editoriales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\editoriales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\libros\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\libros\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\libros\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\js\\libros.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\js\\libros.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\editoriales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\editoriales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\autores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\autores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\autores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\autores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\libros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\libros\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\css\\customstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\css\\customstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\controllers\\librosautorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\controllers\\librosautorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\librosautores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\librosautores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\autores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\autores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\librosautores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\librosautores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\crudsamuelgarcesef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\crudsamuelgarcesef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\models\\mvccrud2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\models\\mvccrud2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\editoriales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\editoriales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\autores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\autores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\librosautores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\librosautores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\editoriales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\editoriales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|c:\\practicac#\\crudsamuelgarcesef\\crudsamuelgarcesef\\views\\librosautores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE3EEB96-0434-4E08-99C0-C8430B3724DB}|CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj|solutionrelative:crudsamuelgarcesef\\views\\librosautores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 448,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editorial.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Editorial.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Editorial.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Editorial.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Editorial.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:45:52.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditorialesController.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\EditorialesController.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Controllers\\EditorialesController.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\EditorialesController.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Controllers\\EditorialesController.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAxwO8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:41:39.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Autores\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Autores\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:43:46.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:03:21.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "crud-operations.js",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\crud-operations.js",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\js\\crud-operations.js",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\crud-operations.js",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\js\\crud-operations.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwHUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T00:35:25.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAADwv3UAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:40:18.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:03:43.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "datatables-init.js",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\datatables-init.js",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\js\\datatables-init.js",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\datatables-init.js",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\js\\datatables-init.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-14T00:32:24.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Categorias\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:49:11.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Libros\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Libros\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAcwJgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:14:05.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Categorias\\Create.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Create.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Categorias\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:45:30.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Categorias\\Delete.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Delete.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Categorias\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:46:22.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Create.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Create.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:15:59.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Libro.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Libro.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:46:23.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Libros\\Delete.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Delete.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Libros\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:40:28.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Libros\\Create.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Create.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Libros\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:32:02.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Libros\\Edit.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Edit.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Libros\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:23:08.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "libros.js",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\libros.js",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\js\\libros.js",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\libros.js",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\js\\libros.js",
+              "ViewState": "AgIAAJwAAAAAAAAAAAA2wLsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-17T23:33:29.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Controllers\\AutoresController.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Controllers\\AutoresController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwMQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:34:43.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Autor.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Autor.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:24:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Categoria.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Categoria.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:10:21.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Edit.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Edit.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:52:55.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Categorias\\Edit.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Edit.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Categorias\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:47:30.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Autores\\Edit.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Edit.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Autores\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:47:15.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AgIAACABAAAAAAAAAADgvx8DAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T02:34:14.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Autores\\Create.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Create.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Autores\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:42:05.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:42:51.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Libros\\Details.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Libros\\Details.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Libros\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:38:50.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Create.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Create.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:46:10.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "customstyles.css",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\css\\customstyles.css",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\css\\customstyles.css",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\css\\customstyles.css",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\css\\customstyles.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T22:47:42.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T20:31:33.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T19:36:37.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\appsettings.json",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\appsettings.json",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T22:34:14.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-15T15:27:54.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T22:26:47.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALcAAAAAAAAAAAAswMsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-15T14:57:48.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Autores\\Details.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Details.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Autores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:46:13.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LibrosAutoresController.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosAutoresController.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosAutoresController.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosAutoresController.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Controllers\\LibrosAutoresController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwJQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:12:16.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Program.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Program.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:22:42.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Edit.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Edit.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:50:39.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Delete.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Delete.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:48:11.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Details.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Details.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\LibrosAutores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:49:08.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T05:11:05.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CRUDSamuelGarcesEF.csproj",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T13:50:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Details.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Details.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:24:19.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Delete.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Editoriales\\Delete.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Editoriales\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:18:52.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Categorias\\Details.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Categorias\\Details.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Categorias\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:46:57.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Views\\Autores\\Delete.cshtml",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Views\\Autores\\Delete.cshtml",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Views\\Autores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:42:52.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Mvccrud2Context.cs",
+              "DocumentMoniker": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Mvccrud2Context.cs",
+              "RelativeDocumentMoniker": "CRUDSamuelGarcesEF\\Models\\Mvccrud2Context.cs",
+              "ToolTip": "C:\\PracticaC#\\CRUDSamuelGarcesEF\\CRUDSamuelGarcesEF\\Models\\Mvccrud2Context.cs",
+              "RelativeToolTip": "CRUDSamuelGarcesEF\\Models\\Mvccrud2Context.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwEMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:25:52.829Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 228,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 205,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

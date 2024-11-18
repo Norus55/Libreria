@@ -150,7 +150,7 @@ else
                 <th>@Html.DisplayNameFor(model => model.First().FechaRegistro)</th>
                 <th>@Html.DisplayNameFor(model => model.First().CodigoCategoriaNavigation.CodigoCategoria)</th>
                 <th>@Html.DisplayNameFor(model => model.First().NitEditorialNavigation.Nit)</th>
-                <th>Acciones</th>
+                <th class ="no-exportar">Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -163,7 +163,7 @@ else
                     <td>@Html.DisplayFor(modelItem => item.FechaRegistro)</td>
                     <td>@Html.DisplayFor(modelItem => item.CodigoCategoriaNavigation.CodigoCategoria)</td>
                     <td>@Html.DisplayFor(modelItem => item.NitEditorialNavigation.Nit)</td>
-                    <td class="no-print">
+                    <td >
                         <button type="button" class="btn btn-warning btn-sm btn-edit"
                                 onclick="window.location.href='@Url.Action("Edit", new { id = item.Isbn })'">
                             <i class="fi fi-rr-pencil"></i>

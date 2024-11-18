@@ -1,10 +1,10 @@
-﻿@model IEnumerable<CRUDSamuelGarcesEF.Models.Editoriale>
+﻿@model IEnumerable<CRUDSamuelGarcesEF.Models.Editorial>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Gestión de Editoriales";
 }
 
-<h1>Editoriales</h1>
+<h1>Gestión de Editoriales</h1>
 
 <p>
     <a asp-action="Create" class="btn btn-primary btn-sm"><i class="fi fi-rr-add"></i></a>
@@ -27,7 +27,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Sitioweb)
             </th>
-            <th>Acciones</th>
+            <th class ="no-exportar">Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -48,7 +48,7 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Sitioweb)
-                        <td class="no-print">
+                        <td >
             <button class="btn btn-warning btn-sm" onclick="window.location.href='@Url.Action("Edit", new { id = item.Nit })'">
                 <i class="fi fi-rr-pencil"></i>
             </button>

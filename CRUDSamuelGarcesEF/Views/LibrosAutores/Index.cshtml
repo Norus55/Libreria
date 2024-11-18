@@ -18,7 +18,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.First().IsbnNavigation.Isbn)
             </th>
-            <th></th>
+            <th class ="no-exportar">Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -30,7 +30,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.IsbnNavigation.Isbn)
             </td>
-                <td class="no-print">
+                <td >
                     <a asp-action="Edit" class="btn btn-warning btn-sm" asp-route-id="@item.IdLibrosAutor">Edit</a> |
                 <a asp-action="Details" class="btn btn-info btn-sm" asp-route-id="@item.IdLibrosAutor">Details</a> |
                 <a asp-action="Delete" class="btn btn-danger btn-sm" asp-route-id="@item.IdLibrosAutor">Delete</a>

@@ -68,20 +68,48 @@ namespace CRUDSamuelGarcesEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<JsonResult> Create([FromForm] Editoriale editorial)
+        public async Task<JsonResult> Create([FromForm] Editorial editorial)
         {
-            if (ModelState.IsValid)
+            try
             {
-                try
+                if (ModelState.IsValid)
                 {
-                    _context.Add(editorial);
-                    await _context.SaveChangesAsync();
-                    return Json(new { success = true, message = "Editorial creada exitosamente" });
+                    if (ModelState.IsValid)
+                    {
+                        //verificar si ya existe el código
+                        if (EditorialeExists(editorial.Nit))
+                        {
+                            return Json(new { success = false, message = "El NIT ya existe" });
+                        }
+                        //verificar si el nombre ya existe
+                        if (_context.Editoriales.Any(c => c.Nombres == editorial.Nombres))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+
+                        }
+                        if (_context.Editoriales.Any(c => c.Email == editorial.Email))
+                        {
+                            return Json(new { success = false, message = "Ese email ya está registrado" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Esa dirección ya está registrada" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Ese teléfono ya está registrado" });
+                        }
+
+                        _context.Add(editorial);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Editoria creada exitosamente" });
+                    }
                 }
-                catch (Exception ex)
-                {
-                    return Json(new { success = false, message = "Error al crear la editorial: " + ex.Message });
-                }
+
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error al crear la editorial: " + ex.Message });
             }
 
             var errors = ModelState.Values
@@ -113,7 +141,7 @@ namespace CRUDSamuelGarcesEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<JsonResult> Edit(int id, [FromForm] Editoriale editorial)
+        public async Task<JsonResult> Edit(int id, [FromForm] Editorial editorial)
         {
             if (id != editorial.Nit)
             {
@@ -124,6 +152,32 @@ namespace CRUDSamuelGarcesEF.Controllers
             {
                 try
                 {
+                    if (ModelState.IsValid)
+                    {
+
+                        //verificar si el nombre ya existe
+                        if (_context.Editoriales.Any(c => c.Nombres == editorial.Nombres))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+
+                        }
+                        if (_context.Editoriales.Any(c => c.Email == editorial.Email))
+                        {
+                            return Json(new { success = false, message = "Ese email ya está registrado" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Esa dirección ya está registrada" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Ese teléfono ya está registrado" });
+                        }
+
+                        _context.Add(editorial);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Categoría creada exitosamente" });
+                    }
                     _context.Update(editorial);
                     await _context.SaveChangesAsync();
                     return Json(new { success = true, message = "Editorial actualizada exitosamente" });
@@ -182,12 +236,17 @@ namespace CRUDSamuelGarcesEF.Controllers
                 return Json(new { success = false, message = "La editorial no se encontró." });
             }
 
+            // Verificar si hay libros asociados a esta editorial
+            if (_context.Libros.Any(l => l.NitEditorial == editorial.Nit)) 
+            {
+                return Json(new { success = false, message = "No se puede eliminar la editorial porque tiene libros asignados." });
+            }
+
             _context.Editoriales.Remove(editorial);
             await _context.SaveChangesAsync();
 
             return Json(new { success = true, message = "La editorial se eliminó con éxito." });
         }
-
         private bool EditorialeExists(int id)
         {
             return _context.Editoriales.Any(e => e.Nit == id);

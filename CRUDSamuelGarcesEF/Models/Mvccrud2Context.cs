@@ -19,7 +19,7 @@ public partial class Mvccrud2Context : DbContext
 
     public virtual DbSet<Categoria> Categorias { get; set; }
 
-    public virtual DbSet<Editoriale> Editoriales { get; set; }
+    public virtual DbSet<Editorial> Editoriales { get; set; }
 
     public virtual DbSet<Libro> Libros { get; set; }
 
@@ -60,7 +60,7 @@ public partial class Mvccrud2Context : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<Editoriale>(entity =>
+        modelBuilder.Entity<Editorial>(entity =>
         {
             entity.HasKey(e => e.Nit).HasName("PK__Editoria__C7D1D6DBFAEE1FEC");
 
